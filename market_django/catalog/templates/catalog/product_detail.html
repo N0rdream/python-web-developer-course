@@ -1,0 +1,48 @@
+{% extends "catalog/layout.html" %}
+
+{% load static %}
+
+{% block title %} {% endblock %}
+
+
+{% block links %}
+
+	<link href="{% static 'catalog/css/styles_product.css' %}" rel="stylesheet"/>
+
+{% endblock %}
+
+
+{% block main %}
+
+	<main id="main">
+		<section id="theme" class="grid">
+			<div class="theme-wrap">
+				<h2>{{ product.brand__name }} | {{ product.name }}</span></h2>
+			</div>
+		</section>
+
+		<section id="info" class="grid">
+			<div class="image-wrap">
+				<img src="{{ product.image__file }}">
+			</div>
+			<div class="specification-wrap">
+				<h2>Tech data</h2>
+				<ul>
+				{% for data in product_data %}
+					<li>{{ data.feature__attribute__name }}: {{ data.feature__value }}</li>
+				{% endfor %}
+				</ul>
+			</div>
+			<div class="price-wrap">
+				<h2>{{ product.price }}</h2>
+				<a href="" class="btn">Buy me</a>
+			</div>
+
+			<div class="description-wrap">
+				
+			</div>
+		</section>
+
+	</main>
+
+{% endblock %}

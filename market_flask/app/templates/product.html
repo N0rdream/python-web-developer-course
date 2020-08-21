@@ -1,0 +1,49 @@
+{% extends "layout.html" %}
+
+{% block title %} Cherry notebook {% endblock %}
+
+
+{% block links %}
+
+<link href="{{ url_for('static', filename='styles_product.css') }}" rel="stylesheet"/>
+
+{% endblock %}
+
+
+{% block main %}
+
+		<main id="main">
+			<section id="theme" class="grid">
+				<div class="theme-wrap">
+					<h2> {{ product.brand}} notebook | <span class="fading-grey">Model: {{ product.spec.screen}}-{{ product.spec.processor}}-{{ product.spec.memory}}-{{ product.spec.storage}}</span></h2>
+				</div>
+			</section>
+	
+
+			<section id="info" class="grid">
+				<div class="image-wrap">
+					<img src="{{ url_for('static', filename='images/' + product.image.file) }}">
+				</div>
+				<div class="specification-wrap">
+					<h2>Specification</h2>
+					<ul>
+						<li>Screen size: {{ product.spec.screen }}</li>
+						<li>Processor: {{ product.spec.processor }}</li>
+						<li>Memory size: {{ product.spec.memory }}</li>
+						<li>Hard drive size: {{ product.spec.storage }}</li>
+						<li>Year: {{ product.year }}</li>
+					</ul>
+				</div>
+				<div class="price-wrap">
+					<h2> {{ product.price }}</h2>
+					<a href="" class="btn">Buy me</a>
+				</div>
+
+				<div class="description-wrap">
+					
+				</div>
+			</section>
+
+		</main>
+
+{% endblock %}

@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block title %} Notebooks {% endblock %}
+
+
+{% block links %}
+
+<link href="{{ url_for('static', filename='styles_index.css') }}" rel="stylesheet"/>
+
+{% endblock %}
+
+
+{% block main %}
+
+<main id="main">
+
+	<section id="theme" class="grid">
+		<div class="theme-wrap">
+			<h2>Notebooks | <span class="fading-grey">{{ quantity }} models</span></h2>
+		</div>
+	</section>
+	
+	<section id="gallery" class="grid">
+	{% for product in products %}
+		<div class="image-wrap">
+			<a href="{{ url_for('notebooks.personal', id=product.id) }}"><img src="{{ url_for('static', filename='images/' + product.image.file) }}"></a>
+		<p> {{ product.brand }} {{ product.spec.screen}}-{{ product.spec.processor}}-{{ product.spec.memory}}-{{ product.spec.storage}}</p>
+		<h3> {{ product.price }} </h3>
+		</div>
+	{% endfor %}
+	</section>
+
+</main>
+
+{% endblock %}

@@ -1,0 +1,37 @@
+{% extends "catalog/layout.html" %}
+
+{% load static %}
+
+{% block title %}All categories{% endblock %}
+
+
+{% block links %}
+	<link href="{% static 'catalog/css/styles_category.css' %}" rel="stylesheet"/>
+{% endblock %}
+
+
+{% block main %}
+
+	<main id="main">
+
+		<section id="theme" class="grid">
+			<div class="theme-wrap">
+				<h2>{{ category }}</h2>
+			</div>
+		</section>
+
+		<section id="gallery" class="grid">
+			{% for product in products %}
+			<div class="image-wrap">
+				<a href="{% url 'product' pk=product.id %}">
+					<img src="{{ product.image__file }}">
+				</a>
+				<p>{{ product.brand__name }} {{ product.name }}</p>
+				<h3>{{ product.price }}</h3>
+			</div>
+			{% endfor %}
+		</section>
+
+	</main>
+
+{% endblock %}

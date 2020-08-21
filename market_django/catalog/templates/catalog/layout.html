@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+	
+  <head>
+    <meta charset="utf-8"/>
+    <meta content="initial-scale=1, width=device-width" name="viewport"/>
+  	<title>{% block title %}{% endblock %}</title>
+    {% block links %}{% endblock %}
+	</head>
+
+	<body>
+
+      <header id="showcase" class="grid">
+        <div class="bg-image"></div>
+        <div class="content-wrap">
+          <h1>Nor<span class="orange">d</span>ream Market</h1>
+          <p>MODERN PYTHON SOLUTIONS</p>
+        </div>
+      </header>
+      
+      {% block main %}{% endblock %}
+  
+      <footer id="footer" class="grid">
+        <div class="footer-wrap">
+          <p>© Copyright 2018 Nordream</p>
+          <p>All Rights Reserved</p>
+        </div>
+      </footer>
+      
+  </body>
+
+</html>
