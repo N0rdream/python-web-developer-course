@@ -1,8 +1,8 @@
-# Laptop-Market
+# Market-Flask
 
 About
 ----------
-Laptop-Market is a simple 2-page web application to store and show information about laptops.
+Market-Flask is a simple 2-page web application to store and show information about laptops.
 Application is built with Flask, SQLAlchemy and SQLite database.
 
 How it looks

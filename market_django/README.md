@@ -1,15 +1,16 @@
-# Django-Market
+# Market-Django
 
 About
 ----------
-Django-Market is a simple web application to store and show information about different products.  
+Market-Django is a simple web application to store and show information about different products.  
 Application is built with Django and SQLite database.
 
 How it looks
 ----------------
 Index page example:
 ![Index page example](/_files/index.png)
- 
+  
+  
 Product category page example:
 ![Product category page example](/_files/category.png)
 
