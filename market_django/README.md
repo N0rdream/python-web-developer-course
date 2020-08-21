@@ -8,23 +8,23 @@ Application is built with Django and SQLite database.
 How it looks
 ----------------
 Index page example:
-![Index page example](/example/index.png)
+![Index page example](/_files/index.png)
  
 Product category page example:
-![Product category page example](/example/category.png)
+![Product category page example](/_files/category.png)
 
 Product page example:
-![Product page example](/example/product.png)
+![Product page example](/_files/product.png)
 
 Database scheme
 --------------------
-![Database scheme](/example/schema.png)
+![Database scheme](/_files/schema.png)
 
 Installation
 -----------
 ```
-$ git clone https://github.com/N0rdream/Django-Market.git
-$ cd Django-Market
+$ git clone https://github.com/N0rdream/python-web-developer-course.git
+$ cd python-web-developer-course/market-django
 ```
 
 Dependencies & requirments

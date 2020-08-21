@@ -8,8 +8,8 @@ Blueberry представляет собой менеджер работы с �
 -----------
 Выполните следующее:
 ```
-$ git clone https://github.com/N0rdream/blueberry.git
-$ cd blueberry
+$ git clone https://github.com/N0rdream/python-web-developer-course.git
+$ cd python-web-developer-course/blueberry
 ```
 Кроме того, необходимо установить Redis.
 

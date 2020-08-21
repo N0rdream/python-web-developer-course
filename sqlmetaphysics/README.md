@@ -8,8 +8,8 @@ SQLMetaphysics is a simple object-relational mapper (ORM) for sqlite3 Python lib
 Installation
 -----------
 ```
-$ git clone https://github.com/N0rdream/SQLMetaphysics.git
-$ cd SQLMetaphysics 
+$ git clone https://github.com/N0rdream/python-web-developer-course.git
+$ cd python-web-developer-course/sqlmetaphysics 
 ```
 
 Dependencies & requirments

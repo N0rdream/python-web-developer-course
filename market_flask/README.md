@@ -8,21 +8,21 @@ Application is built with Flask, SQLAlchemy and SQLite database.
 How it looks
 ----------------
 Index page example:
-![Index page example](/example/index_page.png)
+![Index page example](/_files/index_page.png)
   
   
 Product page example:
-![Product page example](/example/product_page.png)
+![Product page example](/_files/product_page.png)
 
 Database scheme
 --------------------
-![Database scheme](/example/database_scheme.png)
+![Database scheme](/_files/database_scheme.png)
 
 Installation
 -----------
 ```
-$ git clone https://github.com/N0rdream/Laptop-Market.git
-$ cd Laptop-Market
+$ git clone https://github.com/N0rdream/python-web-developer-course.git
+$ cd python-web-developer-course/market-flask
 ```
 
 Dependencies & requirments

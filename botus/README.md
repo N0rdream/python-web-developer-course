@@ -7,8 +7,8 @@ Botus представляет из себя Telegram-бота, который �
 Установка
 -----------
 ```
-$ git clone https://github.com/N0rdream/Botus.git
-$ cd Botus
+$ git clone https://github.com/N0rdream/python-web-developer-course.git
+$ cd python-web-developer-course/botus
 ```
 
 Зависимости

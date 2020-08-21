@@ -7,8 +7,8 @@ Pynalyzer представляет собой скрипт, написанный
 Installation
 -----------
 ```
-$ git clone https://github.com/N0rdream/Pynalyzer.git
-$ cd Pynalyzer 
+$ git clone https://github.com/N0rdream/python-web-developer-course.git
+$ cd python-web-developer-course/pynalyzer 
 ```
 
 Dependencies & requirments

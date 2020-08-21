@@ -7,8 +7,8 @@ Vial is a minimalist WSGI nano web-framework for Python.
 Installation
 -----------
 ```
-$ git clone https://github.com/N0rdream/Vial.git
-$ cd Vial
+$ git clone https://github.com/N0rdream/python-web-developer-course.git
+$ cd python-web-developer-course/vial
 ```
 
 Dependencies & requirments

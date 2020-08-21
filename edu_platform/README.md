@@ -12,8 +12,8 @@ Examples
 Installation
 -----------
 ```
-$ git clone https://github.com/N0rdream/Edu-Platform.git
-$ cd Edu-Platform
+$ git clone https://github.com/N0rdream/python-web-developer-course.git
+$ cd python-web-developer-course/edu-platform
 ```
 
 Dependencies & requirments
